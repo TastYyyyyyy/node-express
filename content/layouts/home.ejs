@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="<%= site.lang %>">
+<%- include ('partials/head') %>
+  <body class="bg-white dark:bg-gray-800">
+    <%- include ('partials/header') %>
+    <%- include ('partials/introduction') %>
+    <main class="container w-full mx-auto pl-4 pr-4">
+      <%- body %>
+    </main>
+    <%- include ('partials/footer') %>
+    <%- include ('partials/scripts') %>
+  </body>
+</html>
